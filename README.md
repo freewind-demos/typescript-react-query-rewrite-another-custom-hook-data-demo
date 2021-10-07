@@ -1,7 +1,7 @@
-TypeScript "react-query" Demo
+TypeScript "react-query" Rewrite Another Custom Hook Data Demo
 =================================
 
-react-query默认进行3次retry，如果不想要，可以把`retry`设为false
+使用`useQuery`定义了多个custom hook，需要在其中一个调用另一个，并且对其结果进行进一步操作，但保留其它状态，方便使用。
 
 ```
 npm install
